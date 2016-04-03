@@ -51,6 +51,20 @@ social:
   #forumbee:
   #tripadvisor:
   #amazon:
+permalink: none
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "events"
+      type: "posts"
+    values:
+      layout: "event"
 
 # Build settings
 markdown: kramdown

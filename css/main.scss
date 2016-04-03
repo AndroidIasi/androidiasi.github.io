@@ -1836,3 +1836,14 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 	}
+
+/* Google maps iframes */
+
+    iframe.google-maps {
+        width: 100% !important;
+        height: 400px !important;
+    }
+
+    .event-image {
+    	width: 100% !important;
+    }
