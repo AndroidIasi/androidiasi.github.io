@@ -4,6 +4,7 @@ layout: landing
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
+							<p><img src="/images/android-iasi-logo-small.png" alt="Android Iasi Logo" title="Android Iasi Logo"></p>
 							<h2>{{ site.title }}</h2>
 							<p>{{ site.description | markdownify }}</p>
 							<ul class="actions">
@@ -36,7 +37,7 @@ layout: landing
 					{% for post in site.posts %}
 						<section class="spotlight">
 							<div class="image">
-							{% include image.html image=post.image %}
+							{% include post-image.html post=post %}
 							</div>
 							<div class="content">
 								<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
