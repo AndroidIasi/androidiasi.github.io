@@ -967,11 +967,30 @@ $baseurl: '{{ site.baseurl }}/images';
 		.image {
 			@include vendor('order', '1');
 			border-radius: 0;
-			width: 40%;
+			width: 50%;
 
 			img {
 				border-radius: 0;
 				width: 100%;
+			}
+
+			h2 {
+				text-align: right;
+				margin: 0 auto 0;
+				float: right;
+				font-size: 3em;
+				line-height: 0.9em;
+				word-spacing: 2em;
+
+				a {
+					border: none;
+					padding: 1em 0 1em 1em;
+					display: block;
+
+					&:hover {
+						color: _palette(accent6, fg);
+					}
+				}
 			}
 		}
 
@@ -1013,6 +1032,18 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			.image {
 				width: 100%;
+
+				h2 {
+					text-align: center;
+					width: 100%;
+					font-size: 2em;
+					line-height: 1em;
+					word-spacing: normal;
+
+					a {
+						padding: 2em 0 0 0;
+					}
+				}
 			}
 
 			.content {
@@ -1334,6 +1365,11 @@ $baseurl: '{{ site.baseurl }}/images';
 						line-height: 3em;
 					}
 				}
+			}
+
+			.icon:before {
+				display: inline-block;
+				width: 30px;
 			}
 		}
 

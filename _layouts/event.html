@@ -11,21 +11,19 @@ layout: default
       <section class="wrapper style5">
   <div class="row">
     <div class="6u 12u$(medium)">
-    <img class="event-image" src="{{ site.baseurl }}/images/{{ page.slug }}.jpg" alt="{{ page.title }}" title="{{ page.title }}">
+        <div class="inner align-center">
+          <h2>When</h2>
+          <p>{{ page.time | date: '%d %B, %Y at %H:%M'}}</p>
+
+          <h2>Where</h2>
+          <p>{{ page.location | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          <iframe class="google-maps" src="{{ page.location_map }}" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div> 
     </div>
     <div class="6u$ 12u$(medium)">
         <div class="inner">
-          <h3>When:</h3>
-          <p>{{ page.time | date: '%d %B, %Y at %H:%M'}}</p>
-        </div>  
-        <div class="inner">
-          <h3>What it is about:</h3>
+          <h2>Description</h2>
           {{ content }}
-        </div>
-        <div class="inner">
-          <h3>Where:</h3>
-          <p>{{ page.location | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-          <iframe class="google-maps" src="{{ page.location_map }}" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
   </div>
