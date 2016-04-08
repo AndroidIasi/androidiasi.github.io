@@ -36,13 +36,16 @@
 
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-    <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
+
+  {% if page.author_url %}
+    <meta content="{{ page.author_url }}" property="article:author">
+  {% endif %}  
 
   {% if page.image %}
     <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image">
   {% else %}
-    <meta content="{{ site.url }}/images/android-iasi-logo-large.jpg" property="og:image">
+    <meta content="{{ site.url }}/images/android-iasi-logo-large-fb.jpg" property="og:image">
   {% endif %}
 
   {% if page.categories %}

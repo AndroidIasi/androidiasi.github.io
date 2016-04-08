@@ -8,11 +8,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="-147 -70 294 345"
+   viewBox="-147 -70 1200 630"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="androi-iasi-logo-inkscape.svg">
+   sodipodi:docname="androi-iasi-logo-inkscape.svg"
+   inkscape:export-filename="/Users/andrei/AndroidStudioProjects/AndroidIasi/images/android-iasi-logo-large-fb.png"
+   inkscape:export-xdpi="256.61163"
+   inkscape:export-ydpi="256.61163"
+   width="1200"
+   height="630">
   <metadata
      id="metadata33">
     <rdf:RDF>
@@ -21,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,49 +46,69 @@
      id="namedview29"
      showgrid="false"
      inkscape:zoom="0.68405797"
-     inkscape:cx="-48.889831"
-     inkscape:cy="172.5"
-     inkscape:window-x="65"
-     inkscape:window-y="43"
+     inkscape:cx="613.25295"
+     inkscape:cy="271.01826"
+     inkscape:window-x="110"
+     inkscape:window-y="66"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer1" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="bg"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(0,285)">
     <circle
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:12.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4163"
-       cx="-0.81356245"
-       cy="105.42374"
-       r="210.50847" />
-  </g>
+       cx="151.22034"
+       cy="-68.690376"
+       r="270.5257" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4153"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(1.2898869,0,0,1.2898869,-389.87215,-202.74391)"><flowRegion
+         id="flowRegion4155"><rect
+           id="rect4157"
+           width="450.25421"
+           height="92.097458"
+           x="641.75848"
+           y="81.80085" /></flowRegion><flowPara
+         id="flowPara4161"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:semi-expanded;font-size:70px;line-height:125%;font-family:Steiner;-inkscape-font-specification:'Steiner, Light Semi-Expanded';text-align:end;writing-mode:lr-tb;text-anchor:end">androidiasi.ro</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="android"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(0,285)">
     <g
-       style=""
-       fill="#fff"
-       id="g4">
+       style="fill:#ffffff"
+       id="g4"
+       transform="matrix(1.2851061,0,0,1.2851061,152.26585,-204.17106)">
       <use
-         stroke-width="14.4"
          xlink:href="#b"
-         stroke="#000"
-         id="use6" />
+         id="use6"
+         style="stroke:#000000;stroke-width:14.39999962"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
       <use
          xlink:href="#a"
          transform="scale(-1,1)"
-         id="use8" />
+         id="use8"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
       <g
          id="a"
-         stroke="#000"
-         stroke-width="7.2">
+         style="stroke:#000000;stroke-width:7.19999981">
         <rect
            rx="6.5"
-           transform="rotate(29)"
+           transform="matrix(0.87461971,0.48480962,-0.48480962,0.87461971,0,0)"
            height="86"
            width="13"
            y="-86"
@@ -100,7 +125,9 @@
            y="97"
            x="85"
            xlink:href="#c"
-           id="use14" />
+           id="use14"
+           width="100%"
+           height="100%" />
       </g>
       <g
          id="b">
@@ -108,7 +135,8 @@
            cy="41"
            rx="91"
            ry="84"
-           id="ellipse17" />
+           id="ellipse17"
+           cx="0" />
         <rect
            rx="22"
            height="182"
@@ -119,48 +147,50 @@
       </g>
     </g>
     <g
-       style=""
-       stroke="#000"
-       stroke-width="7.2"
-       fill="#000"
-       id="g21">
+       style="fill:#000000;stroke:#000000;stroke-width:7.19999981"
+       id="g21"
+       transform="matrix(1.2851061,0,0,1.2851061,152.26585,-204.17106)">
       <path
-         d="m-95 44.5h190"
-         id="path23" />
+         d="m -95,44.5 190,0"
+         id="path23"
+         inkscape:connector-curvature="0" />
       <circle
          cx="-42"
          r="4"
-         id="circle25" />
+         id="circle25"
+         cy="0" />
       <circle
          cx="42"
          r="4"
-         id="circle27" />
+         id="circle27"
+         cy="0" />
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="iasi">
+     inkscape:label="iasi"
+     transform="translate(0,285)">
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:12.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4201"
-       width="203.19916"
-       height="95.021187"
-       x="-101.98729"
-       y="271.61862"
-       ry="20"
-       rx="20" />
+       width="261.13248"
+       height="122.1123"
+       x="21.201349"
+       y="144.88766"
+       ry="25.702122"
+       rx="25.702122" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:60px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-58.211861"
-       y="339.09747"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:77.10636139px;line-height:125%;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="77.457458"
+       y="231.60515"
        id="text4193"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="-58.211861"
-         y="339.09747"
+         x="77.457458"
+         y="231.60515"
          id="tspan4197"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:60px;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';fill:#ffffff;fill-opacity:1">IAȘI</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:77.10636139px;font-family:Roboto;-inkscape-font-specification:'Roboto Heavy';fill:#ffffff;fill-opacity:1">IAȘI</tspan></text>
   </g>
 </svg>
