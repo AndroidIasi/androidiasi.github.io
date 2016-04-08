@@ -1,12 +1,62 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <!--[if lte IE 8]><script src="{{ "/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <meta content="{{ site.title }}" property="og:site_name">
+  {% if page.title %}
+    <meta content="{{ page.title }} | {{ site.title }}" property="og:title">
+    <meta content="article" property="og:type">
+    <title>{{ page.title | escape }} {{ site.title | escape }}</title>
+  {% else %}
+    <meta content="{{ site.title }}" property="og:title">
+    <title>{{ site.title | escape }}</title>
+    <meta content="website" property="og:type">
+  {% endif %}
+
+  {% if page.time and page.location %}
+    <meta content="Another wonderful Android Iași event on {{ page.time | date: '%d %B, %Y at %H:%M'}} at {{ page.location | markdownify | strip_html }}" property="og:description">
+    <meta name="description" content="Another wonderful Android Iași event on {{ page.time | date: '%d %B, %Y at %H:%M'}} at {{ page.location | markdownify | strip_html }}">
+  {% elsif page.excerpt %}
+    <meta content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" property="og:description">
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+  {% else %}
+    <meta content="{{ site.description | markdownify | strip_html }}" property="og:description">
+    <meta name="description" content="{{ site.description | markdownify | strip_html }}">
+  {% endif %}
+
+  {% if page.url %}
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  {% endif %}
+
+  {% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}/about/" property="article:author">
+  {% endif %}
+
+  {% if page.image %}
+    <meta content="/images/{{ page.image }}" property="og:image">
+  {% else %}
+    <meta content="/images/android-iasi-logo-large.jpg" property="og:image">
+  {% endif %}
+
+  {% if page.categories %}
+    {% for category in page.categories limit:1 %}
+    <meta content="{{ category }}" property="article:section">
+    {% endfor %}
+  {% endif %}
+
+  {% if page.tags %}
+    {% for tag in page.tags %}
+    <meta content="{{ tag }}" property="article:tag">
+    {% endfor %}
+  {% endif %}
+
+
+
 </head>
