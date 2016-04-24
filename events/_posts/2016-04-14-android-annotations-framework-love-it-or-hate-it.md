@@ -9,3 +9,11 @@ time: 2016-04-23 12:00
 An introduction into the AndroidAnnotations Framework and how it helps us, the Android Team at Maxcode, to handle boilerplate code and to focus on what really matters. We'll also be discussing about the issues we had these last couple of years with AndroidAnnotations and how we managed to tackle them.
 
 Andrei's slot at CodeCamp is at 12:00 in Room 4, at floor -2. More info about CodeCamp at [http://iasi.codecamp.ro](http://iasi.codecamp.ro)
+
+## After the presentation
+ 
+  - View the presentation [on Speaker Deck](https://speakerdeck.com/andreiverdes/androidannotations-framework-love-it-or-hate-it)  
+  - Video on Youtube coming soon.
+
+
+<script async class="speakerdeck-embed" data-id="19d41f77db004887b3acf55266b38207" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
