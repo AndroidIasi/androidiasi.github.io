@@ -19,3 +19,8 @@ As the Android platform has evolved to its maturity, Android projects now need l
 ## Testing mobile in the cloud, by Andrei Diaconu
 
 Android has a fragmented ecosystem. There are devices out there with square screens or even no 3G antenna. It's impossible to test on all of them. But if we write automated tests, then maybe we could run these tests on hundreds of real devices in the cloud. Let's compare *Espresso* to *Appium* and *Amazon Device Farm* to *Firebase Device Lab* and see which of these we like more.
+
+### Links
+
+* [Facebook event](https://www.facebook.com/events/1801247283446363/)
+* [Meetup event](https://www.meetup.com/Google-Developer-Group-Iasi/events/234150313/)
