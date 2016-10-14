@@ -12,7 +12,7 @@ Our partners, GDG Iași, are hosting a gathering to talk about a better world fo
 
 As the Android platform has evolved to its maturity, Android projects now need larger teams, separation of control, modularity and testability. In this presentation we’re going to discuss about the Model View Presenter pattern and how can it be applied in Android Apps.
 
-###### A few words about Vcitor
+###### A few words about Victor
 
 > As an entrepreneur since the early versions of iPhone and Android, I’ve been developing many native Mobile Apps, either consumer or enterprise oriented. I've also built Enterprise Web Apps and did research in Vehicular Computing before that.
 
