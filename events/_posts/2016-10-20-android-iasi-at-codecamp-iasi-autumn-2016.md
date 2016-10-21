@@ -22,3 +22,5 @@ Finger up, finger down, move the finger, one finger on the phone, 2 fingers, mor
 
 ## See you at Hotel International, on 22 October!
 
+While at the event, you might want to use the [Codecamp Android App](https://play.google.com/store/apps/details?id=ro.androidiasi.codecamp.iasi.live) made by us. It's [open source](https://github.com/AndroidIasi/Codecamp)
+
