@@ -22,5 +22,6 @@ I know that these tools might look a bit scary or dull but I promise to keep it 
  
   - View the presentation [on SlideShare](http://www.slideshare.net/DiaconuAndreiTudor/performance-tools-droidcon-eastern-europe)  
 
+## Slides
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/x78FuSFuO7WPnl" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<script async class="speakerdeck-embed" data-id="7f70a6b249f64354bc4bcc765970dded" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

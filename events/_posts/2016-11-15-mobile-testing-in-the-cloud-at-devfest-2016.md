@@ -14,3 +14,6 @@ On 25 and 26 November, Android Iasi is present at [DevFest Bucharest](http://dev
 Android has a fragmented ecosystem. There are devices out there with square screens or even no 3G antenna. It’s impossible to test on all of them. But if we write automated tests, then maybe we could run these tests on hundreds of real devices in the cloud. Let’s compare Espresso to Appium and Amazon Device Farm to Firebase Device Lab and see which of these we like more.
 
 ## See you at [DevFest](http://devfest.ro), on 25-26 November!
+
+## Slides
+<script async class="speakerdeck-embed" data-id="392baeee792a43b39fedd3d1c2a4b520" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

@@ -15,5 +15,6 @@ Andrei's slot at CodeCamp is at 12:00 in Room 4, at floor -2. More info about Co
   - View the presentation [on Speaker Deck](https://speakerdeck.com/andreiverdes/androidannotations-framework-love-it-or-hate-it)  
   - Video on Youtube coming soon.
 
+## Slides
 
 <script async class="speakerdeck-embed" data-id="19d41f77db004887b3acf55266b38207" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

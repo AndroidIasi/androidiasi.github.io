@@ -16,6 +16,6 @@ Discuss about the Android Canvas API
   - Fork the code [on GitHub](https://github.com/andreiverdes/CanvasMagic)  
   - View the presentation on [Speaker Deck](https://speakerdeck.com/andreiverdes/android-canvas-magic)  
 
-
+## Slides
 
 <script async class="speakerdeck-embed" data-id="cfac9235b0564a06a28d58592f710424" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

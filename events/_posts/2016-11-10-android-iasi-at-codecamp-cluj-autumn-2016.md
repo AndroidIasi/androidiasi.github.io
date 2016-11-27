@@ -24,3 +24,5 @@ Finger up, finger down, move the finger, one finger on the phone, 2 fingers, mor
 
 While at the event, you might want to use the [Codecamp Android App](https://play.google.com/store/apps/details?id=ro.androidiasi.codecamp.iasi.live) made by us. It's [open source](https://github.com/AndroidIasi/Codecamp)
 
+## Slides
+<script async class="speakerdeck-embed" data-id="392baeee792a43b39fedd3d1c2a4b520" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

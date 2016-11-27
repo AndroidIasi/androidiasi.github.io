@@ -15,3 +15,5 @@ Android has a fragmented ecosystem. There are devices out there with square scre
 
 ## See you in Moscow at [MBLTdev](http://mbltdev.ru/en), on 17 November!
 
+## Slides
+<script async class="speakerdeck-embed" data-id="392baeee792a43b39fedd3d1c2a4b520" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

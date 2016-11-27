@@ -24,3 +24,6 @@ Android has a fragmented ecosystem. There are devices out there with square scre
 
 * [Facebook event](https://www.facebook.com/events/1801247283446363/)
 * [Meetup event](https://www.meetup.com/Google-Developer-Group-Iasi/events/234150313/)
+
+## Slides
+<script async class="speakerdeck-embed" data-id="392baeee792a43b39fedd3d1c2a4b520" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

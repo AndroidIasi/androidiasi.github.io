@@ -15,5 +15,6 @@ Go from screen A to screen B in style. Let's learn together how to animate the t
 - View the presentation on [GitHub Pages](http://andreidiaconu.github.io/transitions-animate-demo/#/)
 - Fork the presentation code on [GitHub](https://github.com/andreidiaconu/transitions-animate-demo/tree/gh-pages)
 
+## Slides
 
-<iframe src="http://andreidiaconu.github.io/transitions-animate-demo/#/" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<script async class="speakerdeck-embed" data-id="1c3489b05c9046bea161ddf45990669d" data-ratio="1.37081659973226" src="//speakerdeck.com/assets/embed.js"></script>
