@@ -31,4 +31,4 @@ An android enthusiast developer, with 4 and a half years of experience in androi
 [CodeCamp](http://codecamp.ro) is (probably) the largest IT community & conference in Romania, aiming for better communication among the IT people. Join CodeCamp and meet smart people sharing from their own real life experiences.  
 This presentation takes place in the [2nd day of the event](http://iasi.codecamp.ro/day2), which is free of charge, on May 13th. Look for the GDG track in Room 7!
 
-
+If you're going to CodeCamp, you [should give our app a try](https://play.google.com/store/apps/details?id=ro.androidiasi.codecamp.iasi.live).
